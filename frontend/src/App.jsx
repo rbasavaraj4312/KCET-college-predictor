@@ -17,7 +17,7 @@ function App() {
     }
   });
 
-  const [backend, setBackend] = useState("http://localhost:4000");
+  const [backend, setBackend] = useState("https://kcet-college-predictor-backend.onrender.com");
 
   useEffect(() => {
     localStorage.setItem("last", JSON.stringify(last));
